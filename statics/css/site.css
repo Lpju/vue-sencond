@@ -1,0 +1,14 @@
+
+html,body,ul,li,img,a,p,div,form,input,h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+body{
+	background:white ;
+}
+#tmpl{
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
