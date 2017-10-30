@@ -35,6 +35,11 @@ import "../statics/css/site.css";
 //引入vue-resource
 import vueResource from "vue-resource";
 Vue.use(vueResource);
+//8.定义一个全局过滤器格式化事件，有道了moment组件
+import moment from "moment";
+Vue.filter("datefmt",function(input,fmtstring){
+    return moment(input).format(fmtstring);
+})
 // 7.0 利用Vue对象进行解析渲染
  new Vue({
      el:"#app",

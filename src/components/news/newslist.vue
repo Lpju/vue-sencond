@@ -8,7 +8,7 @@
                            {{item.title}}
                     <p class='mui-ellipsis' v-text="item.zhaiyao"></p>
                     </div>
-                    <span>发布日期:{{item.add_time}}</span>
+                    <span>发布日期:{{item.add_time | datefmt("YYYY-MM-DD HH:mm:ss ")}}</span>
                     <span>点击数:{{item.click}}</span>
                 </a>
             </li>
